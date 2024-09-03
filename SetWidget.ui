@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>413</width>
+    <height>414</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #a1c4fd, stop:1 #c2e9fb);
+color:white;
+font-size:16px;</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>261</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #a1c4fd, stop:1 #c2e9fb);
+color:white;
+font-style: italic;
+font-size:17px</string>
+   </property>
+   <property name="currentIndex">
+    <number>3</number>
+   </property>
+   <widget class="QWidget" name="model">
+    <widget class="QRadioButton" name="radioButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>115</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"> background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>开心</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>115</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"> background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>哀伤</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>115</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"> background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>调皮</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>115</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"> background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>害羞</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>8</x>
+       <y>119</y>
+       <width>251</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="Assets.qrc">:/assets/desktopRole/blackGril/action1-happy/0.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="rolemodeblack">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>10</y>
+       <width>95</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"> background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>模型</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="model1">
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>0</y>
+       <width>251</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:transparent</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="Assets.qrc">:/assets/desktopRole/littleBoy/0.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="rolemodeboy">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>95</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:transparent</string>
+     </property>
+     <property name="text">
+      <string>模型</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="model2">
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>251</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:transparent;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="Assets.qrc">:/assets/desktopRole/summerGril/0.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="rolemodegirl">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>95</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:transparent；</string>
+     </property>
+     <property name="text">
+      <string>模型</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>170</y>
+       <width>251</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#groupBox{background-color:transparent;
+border:none}</string>
+     </property>
+     <property name="title">
+      <string>自定义桌面壁纸</string>
+     </property>
+     <widget class="QPushButton" name="selectwall">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>80</y>
+        <width>93</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#selectwall
+{
+color:white;
+border-radius:10px;
+background-color: aqua;
+height:30px
+}
+#selectwall:hover {
+    /* 鼠标悬停时的背景颜色 */
+    font-size:20px; 
+}
+#selectwall:pressed {
+    /* 鼠标按下时的背景颜色 */
+    background-color: blue; 
+}</string>
+      </property>
+      <property name="text">
+       <string>选择壁纸</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>251</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:transparent;
+border:none</string>
+     </property>
+     <property name="title">
+      <string>程序设计</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>375</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;
+font-style: italic;
+font-size:20px;
+</string>
+   </property>
+   <property name="text">
+    <string>人      物      设      置</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>25</y>
+     <width>19</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/assets/button/close.png);background-color: transparent;border-radius: 5px;}#close:hover{ background-color: rgb(220,220,220);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>50</y>
+     <width>115</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="setbtn">
+      <property name="styleSheet">
+       <string notr="true">#setbtn
+{
+color:white;
+border-radius:10px;
+background-color: aqua;
+height:30px
+}
+#setbtn:hover {
+    /* 鼠标悬停时的背景颜色 */
+    font-size:25px; 
+}
+#setbtn:pressed {
+    /* 鼠标按下时的背景颜色 */
+    background-color: blue; 
+}</string>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="modelbtn">
+      <property name="styleSheet">
+       <string notr="true">#modelbtn
+{
+color:white;
+border-radius:10px;
+background-color: aqua;
+height:30px
+}
+#modelbtn:hover {
+    /* 鼠标悬停时的背景颜色 */
+    font-size:22px; 
+}
+#modelbtn:pressed {
+    /* 鼠标按下时的背景颜色 */
+    background-color: blue; 
+}</string>
+      </property>
+      <property name="text">
+       <string>人物模型1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="modelbtn2">
+      <property name="styleSheet">
+       <string notr="true">#modelbtn2
+{
+color:white;
+border-radius:10px;
+background-color: aqua;
+height:30px
+}
+#modelbtn2:hover {
+    /* 鼠标悬停时的背景颜色 */
+    font-size:22px; 
+}
+#modelbtn2:pressed {
+    /* 鼠标按下时的背景颜色 */
+    background-color: blue; 
+}</string>
+      </property>
+      <property name="text">
+       <string>人物模型2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="modelbtn3">
+      <property name="styleSheet">
+       <string notr="true">#modelbtn3
+{
+color:white;
+border-radius:10px;
+background-color: aqua;
+height:30px
+}
+#modelbtn3:hover {
+    /* 鼠标悬停时的背景颜色 */
+    font-size:22px; 
+}
+#modelbtn3:pressed {
+    /* 鼠标按下时的背景颜色 */
+    background-color: blue; 
+}</string>
+      </property>
+      <property name="text">
+       <string>人物模型</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Assets.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>close</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>19</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>206</x>
+     <y>206</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

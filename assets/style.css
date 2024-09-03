@@ -1,0 +1,32 @@
+﻿QPushButton
+{
+    border: none;
+}
+
+QPushButton#closeBtn
+{
+    image: url(':/assets/button/quit.png');
+    background-color: rgba(230,231,232,120);
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 16px;
+}
+
+QPushButton#closeBtn:hover
+{
+    background-color: rgba(230,231,232,200);
+}
+
+QPushButton#settingsBtn
+{
+    image: url(':/assets/button/setting.png');
+    background-color: rgba(230,231,232,120);
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 16px;
+}
+
+QPushButton#settingsBtn:hover
+{
+    background-color: rgba(230,231,232,200);
+}
